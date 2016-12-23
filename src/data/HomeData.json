@@ -1,0 +1,134 @@
+{
+	"CarouselData":[
+  {
+    "images": "../images/slide_1.jpg",
+    "title": "First slide label",
+    "desc": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+  },
+  {
+    "images": "../images/slide_2.jpg",
+    "title": "Second slide label",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+   {
+    "images": "../images/slide_3.jpg",
+    "title": "Third slide label",
+    "desc": "Praesent commodo cursus magna, vel scelerisque nisl consectetur."
+  },
+  {
+    "images": "../images/slide_4.jpg",
+    "title": "Third slide label",
+    "desc": "Praesent commodo cursus magna, vel scelerisque nisl consectetur."
+  }
+],
+"EnergyFeatures":[
+	{
+    "iconClass": "sl-icon-chart",
+    "title": "WordPress Theme",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  },
+  {
+    "iconClass": "sl-icon-screen-tablet",
+    "title": "Responsive Layout",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  },
+   {
+    "iconClass": "sl-icon-layers",
+    "title": "Layered PSD Template",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  }
+],
+"OurServices":[
+	{
+    "iconClass": "sl-icon-support",
+    "title": "Help &amp; Support",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+  },
+  {
+    "iconClass": "sl-icon-graph",
+    "title": "Dashboard",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+  },
+   {
+    "iconClass": "sl-icon-camera",
+    "title": "Photography",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+  }
+
+],
+"imgdesc":[
+	
+	{
+    "title1": "About Us",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    "bgimgurl": "./images/project-1.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+	  },
+	  {
+	    "title1": "About Us",
+	    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+	    "bgimgurl": "./images/project-2.jpg",
+	    "title2":"Shoes",
+	    "desc2":"Travel"
+	  }
+	],
+"parallax":[
+	{
+    "iconClass": "icon-twitter3 twitter-color",
+    "title": "Athan Smith, via",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+  },
+  {
+    "iconClass": "icon-google-plus googleplus-color",
+    "title": "Athan Smith, via",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."
+  }
+		
+	],
+  "imgarr":[
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-1.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    },
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-2.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    },
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-3.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    },
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-4.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    },
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-5.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    },
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-6.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    },
+    {
+    "title1": "About Us",
+    "bgimgurl": "../images/project-2.jpg",
+    "title2":"Bag",
+    "desc2":"Travel"
+    }
+  ]
+
+	}
