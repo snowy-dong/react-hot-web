@@ -1,22 +1,22 @@
 {
 	"CarouselData":[
   {
-    "images": "../images/slide_1.jpg",
+    "images": "./images/slide_1.jpg",
     "title": "First slide label",
     "desc": "Nulla vitae elit libero, a pharetra augue mollis interdum."
   },
   {
-    "images": "../images/slide_2.jpg",
+    "images": "./images/slide_2.jpg",
     "title": "Second slide label",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
    {
-    "images": "../images/slide_3.jpg",
+    "images": "./images/slide_3.jpg",
     "title": "Third slide label",
     "desc": "Praesent commodo cursus magna, vel scelerisque nisl consectetur."
   },
   {
-    "images": "../images/slide_4.jpg",
+    "images": "./images/slide_4.jpg",
     "title": "Third slide label",
     "desc": "Praesent commodo cursus magna, vel scelerisque nisl consectetur."
   }
@@ -86,46 +86,50 @@
   }
 		
 	],
+  "parallaxBg":
+  {
+    "bgimgurl": "./images/hero.jpg"
+  },
   "imgarr":[
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-1.jpg",
+    "bgimgurl": "./images/project-1.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     },
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-2.jpg",
+    "bgimgurl": "./images/project-2.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     },
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-3.jpg",
+    "bgimgurl": "./images/project-3.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     },
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-4.jpg",
+    "bgimgurl": "./images/project-4.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     },
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-5.jpg",
+    "bgimgurl": "./images/project-5.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     },
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-6.jpg",
+    "bgimgurl": "./images/project-6.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     },
     {
     "title1": "About Us",
-    "bgimgurl": "../images/project-2.jpg",
+    "bgimgurl": "./images/project-2.jpg",
     "title2":"Bag",
     "desc2":"Travel"
     }

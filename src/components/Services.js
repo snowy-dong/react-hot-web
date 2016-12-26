@@ -16,7 +16,7 @@ const Services = React.createClass({
     };
   },
   componentDidMount: function() {
-    $.get('../data/services.json', function(result) {
+    $.get('./data/services.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           OurServices: result.OurServices,
@@ -24,7 +24,7 @@ const Services = React.createClass({
         });
       }
     }.bind(this));
-    $.get('../data/CommonData.json', function(result) {
+    $.get('./data/CommonData.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           commondata: result.Services[0],

@@ -23,7 +23,7 @@ const About = React.createClass({
     this.setState({ showModal: true });
   },
   componentDidMount: function() {
-    $.get('../data/AboutCenter.json', function(result) {
+    $.get('./data/AboutCenter.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           centerContent: result
@@ -31,7 +31,7 @@ const About = React.createClass({
       }
     }.bind(this));
 
-    $.get('../data/CommonData.json', function(result) {
+    $.get('./data/CommonData.json', function(result) {
 
       if (this.isMounted()) {
         this.setState({
@@ -40,7 +40,7 @@ const About = React.createClass({
         });
       }
     }.bind(this));
-    $.get('../data/BgOverText.json', function(result) {
+    $.get('./data/BgOverText.json', function(result) {
 
       if (this.isMounted()) {
         this.setState({

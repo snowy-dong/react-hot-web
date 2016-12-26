@@ -11,11 +11,12 @@ const Home = React.createClass({
       parallax: [],
       imgdesc: [],
       bgovertext: {},
-      imgarr: []
+      imgarr: [],
+      parallaxBg: {}
     };
   },
   componentDidMount: function() {
-    $.get('../data/HomeData.json', function(result) {
+    $.get('./data/HomeData.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           CarouselData: result.CarouselData,
@@ -23,7 +24,8 @@ const Home = React.createClass({
           OurServices: result.OurServices,
           parallax: result.parallax,
           imgdesc: result.imgdesc,
-          imgarr: result.imgarr
+          imgarr: result.imgarr,
+          parallaxBg: result.parallaxBg
         });
       }
     }.bind(this));
@@ -121,7 +123,7 @@ const Home = React.createClass({
           </div>
         </div>
 
-        <div className="fh5co-parallax fh5co-parallax2" style={{backgroundImage: 'url(images/hero.jpg)'}} data-stellar-background-ratio="0.5">
+        <div className="fh5co-parallax fh5co-parallax2" style={{backgroundImage: 'url(' + this.state.parallaxBg.bgimgurl + ')'}} data-stellar-background-ratio="0.5">
           <div className="overlay"></div>
           <div className="container">
             <div className="row">

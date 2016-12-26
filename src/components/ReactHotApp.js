@@ -10,9 +10,9 @@ import Services from './Services';
 // CSS
 require('normalize.css');
 require('../styles/main.css');
-
-ReactDom.render((
- <Router history={hashHistory}>
+const RouterList = React.createClass({
+render() {
+    return (<Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="About" component={About}/>
@@ -20,5 +20,10 @@ ReactDom.render((
       <Route path="*" component={Blog}/>
     </Route>
   </Router>
+    );
+  }
+});
+ReactDom.render((
+<RouterList />
   ), document.getElementById('content')); // jshint ignore:line
 

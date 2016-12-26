@@ -13,7 +13,7 @@ const Blog = React.createClass({
     };
   },
   componentDidMount: function() {
-    $.get('../data/blog.json', function(result) {
+    $.get('./data/blog.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           Data: result
@@ -21,7 +21,7 @@ const Blog = React.createClass({
       }
     }.bind(this));
 
-    $.get('../data/CommonData.json', function(result) {
+    $.get('./data/CommonData.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           commondata: result.Blog[0],
@@ -30,7 +30,7 @@ const Blog = React.createClass({
       }
     }.bind(this));
 
-    $.get('../data/BgOverText.json', function(result) {
+    $.get('./data/BgOverText.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           bgovertext: result.Blog[0]

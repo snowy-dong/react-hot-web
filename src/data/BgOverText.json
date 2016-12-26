@@ -3,7 +3,7 @@
   {
     "title": "Our Staff",
     "desc": "Made with love by the fine folks at Freehtml5",
-    "backgroundImage":"../images/hero.jpg"
+    "backgroundImage":"./images/hero.jpg"
   }
 
 ],
@@ -11,7 +11,7 @@
 	{
     "title": "Our Staff",
     "desc": "Made with love by the fine folks at Freehtml5",
-    "backgroundImage":"../images/hero.jpg"
+    "backgroundImage":"./images/hero.jpg"
   }
 
 ],
@@ -19,7 +19,7 @@
   {
     "title": "We Customize Your Template",
      "desc": "Made with love by the fine folks at Freehtml5",
-     "backgroundImage":"../images/hero3.jpg"
+     "backgroundImage":"./images/hero3.jpg"
   }
 
 ],
@@ -27,7 +27,7 @@
   {
     "title": "We Customize Your Template",
     "desc": "Made with love by the fine folks at Freehtml5",
-    "backgroundImage":"../images/hero2.jpg"
+    "backgroundImage":"./images/hero2.jpg"
   }
 
 ]

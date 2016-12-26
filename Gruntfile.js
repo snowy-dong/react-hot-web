@@ -73,7 +73,7 @@ module.exports = function (grunt) {
       }
     },
 
-    copy: {
+ copy: {
       dist: {
         files: [
           // includes files within path
@@ -87,12 +87,47 @@ module.exports = function (grunt) {
           {
             flatten: true,
             expand: true,
-            src: ['<%= pkg.src %>/images/*'],
-            dest: '<%= pkg.dist %>/images/'
-          }
+            cwd: 'src/images/',
+            src: '**',
+            dest: 'dist/images/'
+          },
+          {
+            flatten: false,
+            expand: true,
+            cwd: 'src/data/',
+            src: '**',
+            dest: 'dist/data/'
+           
+          },
+          {
+            flatten: false,
+            expand: true,
+            cwd: 'src/fonts/',
+            src: '**',
+            dest: 'dist/fonts/'
+           
+          },
+          {
+            flatten: false,
+            expand: true,
+            cwd: 'src/styles/',
+            src: '**',
+            dest: 'dist/styles/'
+           
+          },
+          {
+            flatten: false,
+            expand: true,
+            cwd: 'src/script/',
+            src: '**',
+            dest: 'dist/script/'
+           
+          },
+
         ]
       }
     },
+
 
     clean: {
       dist: {

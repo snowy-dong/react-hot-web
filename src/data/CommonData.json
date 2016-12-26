@@ -40,17 +40,17 @@
   {
     "title": "About Us",
     "desc": "Made with love by the fine folks at Freehtml5",
-    "backgroundImage":"../images/hero.jpg"
+    "backgroundImage":"./images/hero.jpg"
   },
   {
     "title": "Services",
     "desc": "Made with love by the fine folks at Freehtml5",
-    "backgroundImage":"../images/hero2.jpg"
+    "backgroundImage":"./images/hero2.jpg"
   },
   {
     "title": "Blog",
     "desc": "Made with love by the fine folks at Freehtml5",
-    "backgroundImage":"../images/hero3.jpg"
+    "backgroundImage":"./images/hero3.jpg"
   }
   ]
 	}
