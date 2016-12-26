@@ -1,0 +1,20 @@
+[
+  {
+    "images": "./images/author.jpg",
+    "name": "Eloisa Doe",
+    "job":"Web Developer",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics."
+  },
+  {
+     "images": "./images/author2.jpg",
+    "name": "John Doe",
+    "job":"Web Designer",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics."
+  },
+   {
+     "images": "./images/author.jpg",
+    "name": "Eloisa Doe",
+    "job":"CEO, Developer",
+    "desc": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics."
+  }
+]

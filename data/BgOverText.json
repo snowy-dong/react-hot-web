@@ -1,0 +1,34 @@
+{
+ "Home":[
+  {
+    "title": "Our Staff",
+    "desc": "Made with love by the fine folks at Freehtml5",
+    "backgroundImage":"./images/hero.jpg"
+  }
+
+],
+"About":[
+	{
+    "title": "Our Staff",
+    "desc": "Made with love by the fine folks at Freehtml5",
+    "backgroundImage":"./images/hero.jpg"
+  }
+
+],
+"Blog":[
+  {
+    "title": "We Customize Your Template",
+     "desc": "Made with love by the fine folks at Freehtml5",
+     "backgroundImage":"./images/hero3.jpg"
+  }
+
+],
+"Services":[
+  {
+    "title": "We Customize Your Template",
+    "desc": "Made with love by the fine folks at Freehtml5",
+    "backgroundImage":"./images/hero2.jpg"
+  }
+
+]
+	}
