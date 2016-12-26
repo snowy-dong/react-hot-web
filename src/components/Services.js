@@ -33,7 +33,7 @@ const Services = React.createClass({
         });
       }
     }.bind(this));
-    $.get('../data/BgOverText.json', function(result) {
+    $.get('./data/BgOverText.json', function(result) {
       if (this.isMounted()) {
         this.setState({
           bgovertext: result.Services[0]
