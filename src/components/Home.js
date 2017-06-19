@@ -2,6 +2,7 @@ var React = require('react');
 var Footer = require('../tpl/Footer');
 var ImgArr = require('../tpl/ImgArr');
 import { Carousel} from 'react-bootstrap';
+import $ from 'jquery';
 const Home = React.createClass({
   getInitialState() {
     return {

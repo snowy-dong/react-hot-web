@@ -1,7 +1,6 @@
 var React = require('react');
 import { IndexLink } from 'react-router';
 import { Navbar, Nav, NavItem, FormGroup, FormControl, Button} from 'react-bootstrap';
-
 const App = React.createClass({
 render() {
     return (

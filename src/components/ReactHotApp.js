@@ -10,7 +10,10 @@ import Services from './Services';
 // CSS
 require('normalize.css');
 require('styles/main.css');
+require('styles/style.css');
 require('styles/simple-line-icons.css');
+require('styles/bootstrap.css');
+require('styles/icomoon.css');
 const RouterList = React.createClass({
 render() {
     return (<Router history={hashHistory}>

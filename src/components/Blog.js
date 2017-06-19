@@ -3,6 +3,7 @@ var Footer = require('../tpl/Footer');
 var CommonCenter = require('../tpl/Common');
 var BgOverText = require('../tpl/BgOverText');
 var JumbotronTpl = require('../tpl/JumbotronTpl');
+import $ from 'jquery';
 const Blog = React.createClass({
    getInitialState() {
     return {

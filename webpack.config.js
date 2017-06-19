@@ -7,7 +7,7 @@
 'use strict';
 var webpack = require('webpack');
 const path = require('path');
-co'st ExtractTextPlugin = require('extract-text-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 
@@ -76,7 +76,7 @@ module.exports = {
 		//提取公共库
 		new webpack.optimize.CommonsChunkPlugin({
 			name: 'vendor',
-			filename: "js/vendor.[hash].js"
+			filename: 'js/vendor.[hash].js'
 		}),
     new webpack.HotModuleReplacementPlugin()
   ]
