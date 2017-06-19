@@ -17,7 +17,6 @@ const Home = React.createClass({
   },
   componentDidMount: function() {
     $.get('./data/HomeData.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           CarouselData: result.CarouselData,
           EnergyFeatures: result.EnergyFeatures,
@@ -27,7 +26,6 @@ const Home = React.createClass({
           imgarr: result.imgarr,
           parallaxBg: result.parallaxBg
         });
-      }
     }.bind(this));
   },
   render() {

@@ -24,29 +24,23 @@ const About = React.createClass({
   },
   componentDidMount: function() {
     $.get('./data/AboutCenter.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           centerContent: result
         });
-      }
     }.bind(this));
 
     $.get('./data/CommonData.json', function(result) {
 
-      if (this.isMounted()) {
         this.setState({
           commondata: result.About[0],
           jumbotrontext: result.JumbotronTpl[0]
         });
-      }
     }.bind(this));
     $.get('./data/BgOverText.json', function(result) {
 
-      if (this.isMounted()) {
         this.setState({
           bgovertext: result.About[0]
         });
-      }
     }.bind(this));
   },
 render() {

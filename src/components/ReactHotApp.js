@@ -9,7 +9,8 @@ import Blog from './Blog';
 import Services from './Services';
 // CSS
 require('normalize.css');
-require('../styles/main.css');
+require('styles/main.css');
+require('styles/simple-line-icons.css');
 const RouterList = React.createClass({
 render() {
     return (<Router history={hashHistory}>

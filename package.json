@@ -13,9 +13,12 @@
   "mainInput": "ReactHotApp",
   "mainOutput": "main",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors --host localhost --port 8000 --inline --content-base src/"
+    "start": "webpack-dev-server --content-base src  --port 8000"
   },
   "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
     "normalize.css": "~3.0.3",
     "react": "^15.4.0",
     "react-addons-css-transition-group": "^15.4.1",
@@ -28,7 +31,12 @@
   },
   "devDependencies": {
     "babel": "^5.0.0",
+    "babel-core": "^6.25.0",
     "babel-loader": "^5.4.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "bootstrap": "^3.3.7",
     "css-loader": "^0.9.1",
     "eslint": "^0.21.2",

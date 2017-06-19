@@ -14,28 +14,22 @@ const Blog = React.createClass({
   },
   componentDidMount: function() {
     $.get('./data/blog.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           Data: result
         });
-      }
     }.bind(this));
 
     $.get('./data/CommonData.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           commondata: result.Blog[0],
           jumbotrontext: result.JumbotronTpl[2]
         });
-      }
     }.bind(this));
 
     $.get('./data/BgOverText.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           bgovertext: result.Blog[0]
         });
-      }
     }.bind(this));
   },
 render() {

@@ -17,28 +17,22 @@ const Services = React.createClass({
   },
   componentDidMount: function() {
     $.get('./data/services.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           OurServices: result.OurServices,
           Achievements: result.Achievements
         });
-      }
     }.bind(this));
     $.get('./data/CommonData.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           commondata: result.Services[0],
           commondata2: result.Services[1],
           jumbotrontext: result.JumbotronTpl[1]
         });
-      }
     }.bind(this));
     $.get('./data/BgOverText.json', function(result) {
-      if (this.isMounted()) {
         this.setState({
           bgovertext: result.Services[0]
         });
-      }
     }.bind(this));
   },
   handleSelect(eventKey) {

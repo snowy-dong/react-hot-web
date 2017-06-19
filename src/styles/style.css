@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -616,7 +616,7 @@ figure {
 
 #fh5co-hero {
   min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background: #fff url('../images/loader.gif') no-repeat center center;
 }
 #fh5co-hero .btn {
   font-size: 24px;
@@ -1896,7 +1896,7 @@ figure {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url(../images/hourglass.svg) center no-repeat #222222;
+  /*background: url('images/hourglass.svg') center no-repeat #222222;*/
 }
 
 /*# sourceMappingURL=style.css.map */
