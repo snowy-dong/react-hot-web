@@ -12,4 +12,3 @@ To build the examples locally, run:
 
 3:Then open http://localhost:8000 in a browser.
 
-4:grunt build （generate static files）
